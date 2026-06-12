@@ -99,22 +99,6 @@ func longestConsecutive(nums []int) int {
         maxLen = max(maxLen,count)
     }
 
-    // for i:=0;i<len(nums);i++ {
-    //     count = 1
-    //     num := nums[i] //按照go语言的话是每次都开辟新的num空间还是只有第一次 
-    //     for {
-    //         if _,ok := m[num-1]; ok{
-    //             count++
-    //             num--
-    //             continue
-    //         }
-    //         break
-    //     }
-
-
-    //     maxLen = max(MaxLen,count)
-
-    // }
 
     return maxLen
 
